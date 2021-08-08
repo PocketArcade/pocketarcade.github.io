@@ -31,7 +31,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 }
 
 /* main-wrapper */
-#top-loader{
+#toploader{
 	position: absolute;
 	left: 50%;
 	top: 50%;
