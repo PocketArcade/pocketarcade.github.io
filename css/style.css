@@ -22,7 +22,7 @@ ul,label{
 body a:hover{
 	text-decoration:none;
 }
-input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_grid_leftr h4,.w3l_footer_pos p a,.w3ls_footer_grid_leftr a,.w3layouts_header_right ul li a,.w3ls_social li a,.w3_team_grid1_pos,.w3_team_grid1_pos img{
+input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_grid_leftr h4,.w3l_footer_pos_right,.w3l_footer_pos p a,.w3ls_footer_grid_leftr a,.w3layouts_header_right ul li a,.w3ls_social li a,.w3_team_grid1_pos,.w3_team_grid1_pos img{
 	transition: .5s ease-in;
 	-webkit-transition: .5s ease-in;
 	-moz-transition: .5s ease-in;
@@ -31,7 +31,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 }
 
 /* main-wrapper */
-#insert-coin{
+#top-loader{
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -61,12 +61,20 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
     position: relative;
     width: 23%;
 }
+
+.w3l_footer_pos_right{
+	float: right;
+    position: relative;
+    width: 23%;
+}
+
+
 .header {
 	    padding: 0.6em 3em;
     background: #1d1d1d;
 }
 .w3layouts_header_right input[type="search"] {
-       width: 65%;
+    width: 65%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     outline: none;
@@ -984,10 +992,28 @@ ul#lightGallery {
       margin-top: 4em;
 }
 .w3l_footer_pos p{
-	text-align:center;
+	text-align:left;
+	margin-left: 1.2rem;
 	color:#fff;
 	line-height:1.8em;
 }
+
+.w3l_footer_pos_right p{
+	text-align:right;
+	margin-right: 5em;
+	color:#fff;
+	line-height:0em;
+}
+
+.w3l_footer_pos_right i{
+	display:block;
+	font-size: 1.4rem;
+	text-align: right;
+	margin-right: 1.4rem;
+	color:#fff;
+	line-height:0em;
+}
+
 .w3l_footer_pos p a{
 	color:#fa3d03;
 	text-decoration:underline;
@@ -1096,6 +1122,13 @@ ul#lightGallery {
 		position: relative;
 		width: 30%;
 	}
+
+	.w3l_footer_pos_right {
+		float: right;
+		position: relative;
+		width: 30%;
+	}
+
 	.slider-info p {
 		font-size: 0.9em;
 		letter-spacing: 6px;
@@ -1178,6 +1211,13 @@ ul#lightGallery {
 		position: relative;
 		width: 36%;
 	}
+
+	.w3l_footer_pos_right {
+		float: right;
+		position: relative;
+		width: 36%;
+	}
+
 	.slider-info p {
 		font-size: 0.9em;
 		letter-spacing: 6px;
@@ -1244,6 +1284,14 @@ ul#lightGallery {
 		position: relative;
 		width: 36%;
 	}
+
+	.w3l_footer_pos_right {
+		float: none;
+		position: relative;
+		width: 85%;
+		margin: auto;
+	}
+
 	.callbacks_nav.prev {
 		right: auto;
 		background-position: left top;
@@ -1376,6 +1424,13 @@ ul#lightGallery {
 		position: relative;
 		width: 40%;
 	}
+
+	.w3l_footer_pos_right {
+		float: none;
+		position: relative;
+		width: 80%;
+		margin: auto;
+	}
 }
 @media (max-width: 768px){
 	.w3_navigation_pos h1 a {
@@ -1476,6 +1531,14 @@ ul#lightGallery {
 		position: relative;
 		width: 37%;
 	}
+
+	.w3l_footer_pos_right {
+		float: none;
+		position: relative;
+		width: 80%;
+		margin: auto;
+	}
+
 	.about, .services, .team-bottom, .mail {
 		padding: 2em 0;
 	}
@@ -1509,8 +1572,15 @@ ul#lightGallery {
 		float: none;
 		position: relative;
 		width: 56%;
-	margin: 4px auto 0;
+		margin: 4px auto 0;
 	}
+
+	.w3l_footer_pos_right {
+		float: none;
+		position: relative;
+		width: 80%;
+		margin: auto;	}
+
 	.w3layouts_header_right input[type="search"] {
       width: 83%;
 	}
@@ -1595,6 +1665,14 @@ ul#lightGallery {
 		width: 80%;
 		margin: 4px auto 0;
 	}
+
+	.w3l_footer_pos_right {
+		float: none;
+		position: relative;
+		width: 80%;
+		margin: 4px auto 0;
+	}
+
 	.callbacks_nav {
 		position: absolute;
 		bottom: 9%;
@@ -1736,6 +1814,13 @@ ul#lightGallery {
 		width: 95%;
 		margin: 4px auto 0;
 	}
+
+	.w3l_footer_pos_right {
+		float: none;
+		position: relative;
+		width: 95%;
+		margin: 4px auto 0;
+	}
 }
 @media (max-width: 320px){
 	.w3_navigation_pos h1 a {
@@ -1767,6 +1852,14 @@ ul#lightGallery {
 		width: 100%;
 		margin: 4px auto 0;
 	}
+
+	.w3l_footer_pos_right {
+		float: none;
+		position: relative;
+		width: 100%;
+		margin: 4px auto 0;
+	}
+
 	#mail {
     padding: 0em 0 2em 0;
 }
