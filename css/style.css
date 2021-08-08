@@ -1,4 +1,3 @@
-
 html, body{
     font-size: 100%;
 	font-family: 'Open Sans', sans-serif;
@@ -60,6 +59,14 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
     float: right;
     position: relative;
     width: 23%;
+}
+
+.w3layouts_header_right i{
+	display:block;
+	font-size: 1.4rem;
+	text-align: right;
+	color:#fff;
+	line-height:1.3em;
 }
 
 .w3l_footer_pos_right{
@@ -1632,7 +1639,7 @@ ul#lightGallery {
 		
 	}
 	.w3layouts_header_right {
-		float: none;
+		float: right;
 		position: relative;
 		width: 56%;
 		margin: 4px auto 0;
@@ -1747,7 +1754,7 @@ ul#lightGallery {
 	}
 
 	.w3layouts_header_right {
-		float: none;
+		float: right;
 		position: relative;
 		width: 80%;
 		margin: 4px auto 0;
@@ -1908,7 +1915,7 @@ ul#lightGallery {
 }
 @media (max-width: 375px){
 	.w3layouts_header_right {
-		float: none;
+		float: right;
 		position: relative;
 		width: 95%;
 		margin: 4px auto 0;
@@ -1957,7 +1964,7 @@ ul#lightGallery {
 		position: absolute;
 	}
 	.w3layouts_header_right {
-		float: none;
+		float: right;
 		position: relative;
 		width: 100%;
 		margin: 4px auto 0;
