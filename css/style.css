@@ -1601,7 +1601,7 @@ ul#lightGallery {
 	.w3l_footer_pos_right {
 		float: none;
 		position: relative;
-		width: 105%;
+		width: 100%;
 		margin: auto;	}
 
 	.w3layouts_header_right input[type="search"] {
