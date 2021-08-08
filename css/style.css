@@ -77,7 +77,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 
 
 .header {
-	    padding: 0.6em 3em;
+	padding: 0.9em 3em;
     background: #1d1d1d;
 }
 .w3layouts_header_right input[type="search"] {
@@ -158,6 +158,10 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 }
 
 
+.top-nav-text a{
+	text-decoration: none;
+}
+
 .w3_navigation_pos h1 a {
      font-size: 1em;
     color: #212121;
@@ -168,6 +172,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
     text-transform: uppercase;
     font-family: 'Jura', sans-serif;
 }
+
 .navbar-default .navbar-nav > li > a:hover{
     color: #fa3d03;
 }
@@ -547,7 +552,8 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 /*-- services --*/
 /*-- services --*/
 .services{
-	background:url(../images/service.jpg) no-repeat center;
+	background:url(../images/nescontroller.jpg) no-repeat center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../images/nescontroller.jpg);
 	background-size:cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
@@ -1433,7 +1439,7 @@ ul#lightGallery {
 		font-size: 13px;
 	}
 	.header {
-		padding: 0.6em 1em;
+		padding: 0.9em 1em;
 	}
 	.slider-info h4 {
 		font-size: 1.8em;
@@ -1567,7 +1573,7 @@ ul#lightGallery {
 }
 @media (max-width: 736px){
 	.header {
-		padding: 0.6em 1em;
+		padding: 0.9em 1em;
 	}
 
 	.services-gd{
