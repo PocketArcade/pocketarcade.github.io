@@ -1734,6 +1734,13 @@ ul#lightGallery {
 	.box .overbox {
 		padding: 5em 1em 2em;
 	}
+
+	.agileits_banner_btm_grid_r_pos {
+		position: absolute;
+		top: -33%;
+		right: -20%;
+	}
+
 	.projects-grid-caption h4 {
 		font-size: 1.1em;
 		margin: 5em 0 0.5em 0;
@@ -1746,6 +1753,8 @@ ul#lightGallery {
 	.w3l_footer_pos {
 		margin-top: 1em;
 	}
+
+	
 }
 @media (max-width: 480px){
 
@@ -1805,8 +1814,8 @@ ul#lightGallery {
 @media (max-width: 414px){
 	.agileits_banner_btm_grid_r_pos {
 		position: absolute;
-		top: -37%;
-		right: 0%;
+		top: -33%;
+		right: -20%;
 	}
 
 	.services-gd{
@@ -1880,8 +1889,8 @@ ul#lightGallery {
 	}
 	.agileits_banner_btm_grid_r_pos {
 		position: absolute;
-		top: -28%;
-		    right: 0%;
+		top: -33%;
+		right: -20%;
 	}
 }
 @media (max-width: 384px){
@@ -1905,8 +1914,8 @@ ul#lightGallery {
 	}
 	.agileits_banner_btm_grid_r_pos {
 		position: absolute;
-		top: -28%;
-		   right: 0%;
+		top: -33%;
+		right: -20%;
 	}
 	.box .overbox {
 		padding: 3em 1em 2em;
