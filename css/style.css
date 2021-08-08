@@ -553,7 +553,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 /*-- services --*/
 .services{
 	background:url(../images/nescontroller.jpg) no-repeat center;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../images/nescontroller.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.555),rgba(0, 0, 0, 0.555)) , url(../images/nescontroller.jpg);
 	background-size:cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
