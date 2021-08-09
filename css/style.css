@@ -1998,13 +1998,10 @@ ul#lightGallery {
         height: 100vh;
     }
 
-    body #main-wrapper{
+    #main-wrapper, #toploader{
         display: none;
     }
 	
-    body #toploader{
-        display: none;
-    }	
 	
 
     .audio-header{
