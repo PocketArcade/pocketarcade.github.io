@@ -1,3 +1,12 @@
+// Check Browser Window Size
+function checkWindowSize(){
+	var w = window.outerWidth;
+	if(w>=502 && w<=512){
+		mainPage.style.display = "none";
+		topLoader.style.display = "none";
+    	}
+}
+
 // Load main website
 function goToMain () {
 	
@@ -22,7 +31,7 @@ function goToMain () {
 	var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?9450';
 	var s = document.createElement('script');
 	var options = null;
-    var w = window.outerWidth;
+    
 
     s.type = 'text/javascript';
 	s.async = true;
@@ -58,11 +67,7 @@ function goToMain () {
 
 	var x = document.getElementsByTagName('script')[0];
 	x.parentNode.insertBefore(s, x);
-    
-    if(w>=502 && w<=512){
-	    mainPage.style.display = "none";
-	    topLoader.style.display = "none";
-    }
+  
 }
 
 
