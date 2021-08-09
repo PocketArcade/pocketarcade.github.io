@@ -1,8 +1,16 @@
+// Global Variables
+var mainPage = document.getElementById('main-wrapper');
+var topLoader = document.getElementById('toploader');
+
+
 // Check Browser Window Size
-var w = window.outerWidth;
-if(w>=502 && w<=512){
-	mainPage.style.display = "none";
-	topLoader.style.display = "none";
+function checkWindowSize(){
+	var w = window.outerWidth;
+	if(w>=502 && w<=512){
+		mainPage.style.display = "none";
+		topLoader.style.display = "none";
+	}
+	
 }
 
 
@@ -20,8 +28,6 @@ function goToMain () {
 			
 
 	// hide the toploader div
-	var mainPage = document.getElementById('main-wrapper');
-	var topLoader = document.getElementById('toploader');
 	mainPage.style.display = "block";
 	topLoader.style.display = "none";
 
