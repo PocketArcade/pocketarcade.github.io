@@ -77,7 +77,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 
 
 .header {
-	padding: 0.9em 3em;
+	padding: 1em 3em;
     background: #1d1d1d;
 }
 .w3layouts_header_right input[type="search"] {
@@ -1439,7 +1439,7 @@ ul#lightGallery {
 		font-size: 13px;
 	}
 	.header {
-		padding: 0.9em 1em;
+		padding: 0.6em 1em;
 	}
 	.slider-info h4 {
 		font-size: 1.8em;
@@ -1573,7 +1573,7 @@ ul#lightGallery {
 }
 @media (max-width: 736px){
 	.header {
-		padding: 0.9em 1em;
+		padding: 0.6em 1em;
 	}
 
 	.services-gd{
@@ -1901,12 +1901,13 @@ ul#lightGallery {
 		margin: 0.5em 0 1em 0;
 	}
 	.agileits_banner_btm_grid_r_pos img {
-		width: 57%;
+		width: auto;
 	}
 	.agileits_banner_btm_grid_r_pos {
 		position: absolute;
 		top: -28%;
-		right: -3%;
+		left: 52%;
+		width: 57%;
 	}
 	.box .overbox {
 		padding: 3em 1em 2em;
