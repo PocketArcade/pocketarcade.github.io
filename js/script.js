@@ -1,3 +1,71 @@
+// Load main website
+function goToMain () {
+	
+	// audio play on click
+	var audio = document.getElementById('audio');
+	if (audio.paused) {
+			audio.play();
+	} else{
+		audio.pause();
+		audio.currentTime = 0
+	}
+			
+
+	// hide the toploader div
+	var mainPage = document.getElementById('main-wrapper');
+	var topLoader = document.getElementById('toploader');
+	mainPage.style.display = "block";
+	topLoader.style.display = "none";
+
+		
+	// load whatsapp chat button
+	var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?9450';
+	var s = document.createElement('script');
+	var options = null;
+    var w = screen.width;
+
+    s.type = 'text/javascript';
+	s.async = true;
+	s.src = url;
+	options = {
+		"enabled":true,
+		"chatButtonSetting":{
+		"backgroundColor":"#4dc247",
+		"ctaText":"",
+		"borderRadius":"25",
+		"marginLeft":"0",
+		"marginBottom":"70",
+		"marginRight":"5",
+		"position":"right"
+		},
+		"brandSetting":{
+		"brandName":"Pocket Arcade MX",
+		"brandSubTitle":"Típicamente responde en unas horas",
+		"brandImg":"./images/PocketArcade_Avatar-White.png",
+		"welcomeText":"¡Hola!\n¿Cómo podemos ayudarte?",
+		"messageText":"Hola, quiero pedir más información para la renta de la consola.",
+		"backgroundColor":"#0a5f54",
+		"ctaText":"Enviar Mensaje",
+		"borderRadius":"25",
+		"autoShow":false,
+		"phoneNumber":"528182768086"
+		}
+		};
+
+		s.onload = function() {
+			CreateWhatsappChatWidget(options);
+	};
+
+	var x = document.getElementsByTagName('script')[0];
+	x.parentNode.insertBefore(s, x);
+    
+    if(w>=490 && w<=500){
+	    mainPage.style.display = "none";
+	    topLoader.style.display = "none";
+    }
+}
+
+
 // for mobile apps
 addEventListener("load", function () {
     setTimeout(hideURLbar, 0);
