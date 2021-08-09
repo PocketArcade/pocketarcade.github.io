@@ -2,22 +2,6 @@
 var mainPage = document.getElementById('main-wrapper');
 var topLoader = document.getElementById('toploader');
 
-
-// Check Browser Window Size. Will clean the main div
-function checkWindowSize(){
-	var w = window.outerWidth;
-	if(w>=502 && w<=512){
-		let elements = document.querySelectorAll('#main-wrapper');
-		elements.forEach(element => {
-   			element.style.display = "none";
-    			//accessing the single properties of style one by one is the preferred way 
-    			//than changing the whole `style` string 
-		});
-	}
-	
-}
-
-
 // Load main website
 function goToMain () {
 	
@@ -162,3 +146,14 @@ $(document).ready(function () {
     });
 
 });
+
+
+// Check Browser Window Size. Will clean the main div
+function checkWindowSize(){
+	var w = window.outerWidth;
+	if(w>=502 && w<=512){
+		mainPage.style.display = "none";
+		topLoader.style.display = "none;
+	}
+	
+}
