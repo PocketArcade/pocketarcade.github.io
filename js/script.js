@@ -22,7 +22,7 @@ function goToMain () {
 	var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?9450';
 	var s = document.createElement('script');
 	var options = null;
-    var w = screen.width;
+    var w = window.innerWidth;
 
     s.type = 'text/javascript';
 	s.async = true;
