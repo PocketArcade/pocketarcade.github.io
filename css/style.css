@@ -1991,8 +1991,8 @@ ul#lightGallery {
 
 .audio-header {display: none;}
 
-@media screen and (min-width: 490px) and (max-width: 500px){
-    body{
+@media only screen and (min-width: 490px) and (max-width: 500px){
+    .audio-header{
         background: url(https://i0.wp.com/the-avocado.org/wp-content/uploads/2018/02/zelda_secret_to_everybody_6.gif) no-repeat top center;
         background-size: cover;
         height: 100vh;
