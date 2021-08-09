@@ -1,11 +1,10 @@
 // Check Browser Window Size
-function checkWindowSize(){
-	var w = window.outerWidth;
-	if(w>=502 && w<=512){
-		mainPage.style.display = "none";
-		topLoader.style.display = "none";
-    	}
+var w = window.outerWidth;
+if(w>=502 && w<=512){
+	mainPage.style.display = "none";
+	topLoader.style.display = "none";
 }
+
 
 // Load main website
 function goToMain () {
