@@ -153,7 +153,7 @@ function checkWindowSize(){
 	var w = window.outerWidth;
 	if(w>=502 && w<=512){
 		mainPage.style.display = "none";
-		topLoader.style.display = "none;
+		topLoader.style.display = "none";
 	}
 	
 }
