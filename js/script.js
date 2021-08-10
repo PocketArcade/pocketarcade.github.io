@@ -1,8 +1,3 @@
-// Global Variables
-var mainPage = document.getElementById('main-wrapper');
-var topLoader = document.getElementById('toploader');
-
-
 // Load main website
 function goToMain () {
 	
@@ -14,12 +9,28 @@ function goToMain () {
 		audio.pause();
 		audio.currentTime = 0
 	}
-			
+	
+	// Hide main-wrapper on click
+	// create new link tag
+	var link = document.createElement('link');
 
-	// hide the toploader div
-	mainPage.style.display = "block";
-	topLoader.style.display = "none";
+	// set properties of link tag
+	link.href = '../css/hideMain.css';
+	link.rel = 'stylesheet';
+	link.type = 'text/css';
 
+	// Loaded successfully
+	link.onload = function() {
+		console.log('success');
+	};
+
+	// Loading failed
+	link.onerror = function() {
+		console.log('error');
+	};
+
+	// append link element to html
+	document.body.appendChild(link);
 		
 	// load whatsapp chat button
 	var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?9450';
@@ -147,13 +158,3 @@ $(document).ready(function () {
     });
 
 });
-
-
-// Check Browser Window Size. Will clean the main div
-var w = window.outerWidth;
-	window.addEventListener('resize', function(){
-		if(w>=502 && w<=512){
-			mainPage.style.display = "none";
-			topLoader.style.display = "none";
-		}
-	},true);
