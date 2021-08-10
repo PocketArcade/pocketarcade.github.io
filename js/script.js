@@ -150,11 +150,10 @@ $(document).ready(function () {
 
 
 // Check Browser Window Size. Will clean the main div
-function checkWindowSize(){
-	var w = window.outerWidth;
-	if(w>=502 && w<=512){
-		mainPage.style.display = "none";
-		topLoader.style.display = "none";
-	}
-	
-}
+var w = window.outerWidth;
+	window.addEventListener('resize', function(){
+		if(w>=502 && w<=512){
+			mainPage.style.display = "none";
+			topLoader.style.display = "none";
+		}
+	},true);
