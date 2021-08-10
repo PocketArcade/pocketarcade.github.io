@@ -2,7 +2,8 @@
 function goToMain () {
 	
 	// audio play on click
-	var audio = document.getElementById('audio');
+	const audio = new Audio("/sounds/coinsound.mp3");
+
 	if (audio.paused) {
 			audio.play();
 	} else{
