@@ -29,6 +29,9 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 	-ms-transition: .5s ease-in;
 }
 
+.slider-img img {
+	filter: brightness(25%);
+}
 /* main-wrapper */
 #toploader{
 	position: absolute;

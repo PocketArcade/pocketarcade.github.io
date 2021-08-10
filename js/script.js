@@ -2,6 +2,7 @@
 var mainPage = document.getElementById('main-wrapper');
 var topLoader = document.getElementById('toploader');
 
+
 // Load main website
 function goToMain () {
 	
