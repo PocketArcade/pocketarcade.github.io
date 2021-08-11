@@ -1,13 +1,13 @@
 // Preloader
-(function($){
-	'use strict';
-	  $(window).on('load', function () {
-		  if ($(".cont-wrapper").length > 0)
-		  {
-			  $(".cont-wrapper").fadeOut("slow");
-		  }
-	  });
-  })(jQuery)
+$(document).ready(function() {
+	//Preloader
+	preloaderFadeOutTime = 500;
+	function hidePreloader() {
+	var preloader = $('.cont-wrapper');
+	preloader.fadeOut(preloaderFadeOutTime);
+	}
+	hidePreloader();
+	});
 
 
 
