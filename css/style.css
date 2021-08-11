@@ -49,11 +49,12 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
     z-index: 2;
 }
 .cont {
-    position: absolute;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 	width:70px;
     height:118.4px;
-    top: 40%;
-	left: 48%;
 }
 .a.grey, .b.grey, .c.grey, .c.d.grey, .e.f.grey, .e.d.grey {
     background:#7f8c8d
