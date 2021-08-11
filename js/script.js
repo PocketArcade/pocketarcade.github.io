@@ -3,7 +3,7 @@ $(document).ready(function() {
 	//Preloader
 	preloaderFadeOutTime = 500;
 	function hidePreloader() {
-	var preloader = $('.cont-wrapper');
+	var preloader = $('.loader-wrapper');
 	preloader.fadeOut(preloaderFadeOutTime);
 	}
 	hidePreloader();
