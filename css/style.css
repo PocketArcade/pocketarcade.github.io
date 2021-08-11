@@ -42,11 +42,11 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 	right: 0;
 	bottom: 0;
     background: #3498db;
-	z-index: 99999;
+	z-index: 9999;
 }
 .cont, .a, .b, .c, .d, .e {
     position:relative;
-    z-index: 2;
+    z-index: 99999;
 }
 .cont {
 	position: absolute;
