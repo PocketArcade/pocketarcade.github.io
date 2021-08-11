@@ -2,9 +2,9 @@
 (function($){
 	'use strict';
 	  $(window).on('load', function () {
-		  if ($(".loader-wrapper").length > 0)
+		  if ($(".cont-wrapper").length > 0)
 		  {
-			  $(".loader-wrapper").fadeOut("slow");
+			  $(".cont-wrapper").fadeOut("slow");
 		  }
 	  });
   })(jQuery)
