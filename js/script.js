@@ -1,3 +1,16 @@
+// Preloader
+(function($){
+	'use strict';
+	  $(window).on('load', function () {
+		  if ($(".loader-wrapper").length > 0)
+		  {
+			  $(".loader-wrapper").fadeOut("slow");
+		  }
+	  });
+  })(jQuery)
+
+
+
 // Load main website
 function goToMain () {
 	
