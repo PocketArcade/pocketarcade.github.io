@@ -62,7 +62,7 @@ function goToMain () {
 		"ctaText":"",
 		"borderRadius":"25",
 		"marginLeft":"0",
-		"marginBottom":"70",
+		"marginBottom":"85",
 		"marginRight":"5",
 		"position":"right"
 		},
