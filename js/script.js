@@ -63,7 +63,7 @@ function goToMain () {
 		"borderRadius":"25",
 		"marginLeft":"0",
 		"marginBottom":"80",
-		"marginRight":"10",
+		"marginRight":"7",
 		"position":"right"
 		},
 		"brandSetting":{
