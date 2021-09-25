@@ -24,6 +24,7 @@ function goToMain () {
 		audio.currentTime = 0
 	}
 	
+
 	// Hide main-wrapper on click
 	// create new link tag
 	var link = document.createElement('link');
@@ -46,6 +47,10 @@ function goToMain () {
 	// append link element to html
 	document.body.appendChild(link);
 		
+	// end Hide main-wrapper
+
+
+	
 	// load whatsapp chat button
 	var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?9450';
 	var s = document.createElement('script');
