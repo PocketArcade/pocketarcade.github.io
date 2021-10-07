@@ -177,3 +177,18 @@ $(document).ready(function () {
     });
 
 });
+
+// Open New Window
+$(function(){
+	var
+	w       = 510,
+	h       = 510,
+	l       = (screen.availWidth - w) / 2,
+	t       = (screen.availHeight - h) / 2,
+	popPage = '#starlink';
+
+	$(popPage).on('click',function(event){
+		window.open("/starroad.html","window","width= "+ w + ",height=" + h + ",left=" + l + ",top=" + t + ", scrollbars = yes, location = no, toolbar = no, menubar = no, status = no");
+		 return false;
+	});
+});
