@@ -205,7 +205,11 @@ $(function(){
 		if (audio.currentTime - audio._startTime >= audio.value){    
 			  audio.pause(); 
 		 };
+
+		 else{
+			audio._startTime=0;
+		 }
 		
-		});
+	});
 
 });
