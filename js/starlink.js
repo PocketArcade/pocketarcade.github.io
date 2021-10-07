@@ -3,8 +3,8 @@
 $(function(){
 	var newWindow;
 	var
-	w       = 500,
-	h       = 500,
+	w       = 480,
+	h       = 480,
 	l       = (screen.availWidth - w) / 2,
 	t       = (screen.availHeight - h) / 2,
 	popPage = '#starlink';
