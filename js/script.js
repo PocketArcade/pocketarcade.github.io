@@ -179,16 +179,33 @@ $(document).ready(function () {
 });
 
 // Open New Window
+
 $(function(){
+	var newWindow;
 	var
-	w       = 510,
-	h       = 510,
+	w       = 500,
+	h       = 500,
 	l       = (screen.availWidth - w) / 2,
 	t       = (screen.availHeight - h) / 2,
 	popPage = '#starlink';
 
+	// Load Audio
+	var audio = new Audio("/sounds/star.mp3");
+	audio.value=11.2;
+	audio._startTime=0;
+	audio.currentTime = 0;  
+
 	$(popPage).on('click',function(event){
-		window.open("/starroad.html","window","width= "+ w + ",height=" + h + ",left=" + l + ",top=" + t + ", scrollbars = yes, location = no, toolbar = no, menubar = no, status = no");
+		audio.play();
+		newWindow = window.open("#","window","width= "+ w + ",height=" + h + ",left=" + l + ",top=" + t + ", scrollbars = yes, location = no, toolbar = no, menubar = no, status = no");
 		 return false;
 	});
+
+	$(audio).on('timeupdate', function() {
+		if (audio.currentTime - audio._startTime >= audio.value){    
+			  audio.pause(); 
+		 };
+		
+		});
+
 });

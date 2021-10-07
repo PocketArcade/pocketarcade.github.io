@@ -2344,21 +2344,7 @@ ul#lightGallery {
 }
 
 .audio-header {display: none;}
-
-.slink {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	background: rgb(65,105,225);
-}
-
-.slink__body {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	z-index: 99999;
-}
+.slink{display: none;}
 
 @media only screen and (min-width: 490px) and (max-width: 500px){
     .audio-header{
@@ -2387,5 +2373,27 @@ ul#lightGallery {
 
 	#starlink{
 		cursor: pointer;
+	}
+}
+
+@media only screen and (min-width: 507px) and (max-width: 508px){
+    #main-wrapper, #toploader{
+        display: none;
+    }
+
+	.slink {
+		display: flex;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background: rgb(65,105,225);
+	}
+	
+	.slink__body {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 99999;
 	}
 }
