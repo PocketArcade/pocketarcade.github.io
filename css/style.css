@@ -2344,7 +2344,6 @@ ul#lightGallery {
 }
 
 .audio-header {display: none;}
-.slink{display: none;}
 
 @media only screen and (min-width: 490px) and (max-width: 500px){
     .audio-header{
@@ -2379,51 +2378,6 @@ ul#lightGallery {
 
 	#starlink{
 		cursor: pointer;
-	}
-}
-
-@media only screen and (min-width: 480px) and (max-width: 481px){
-    #main-wrapper, #toploader{
-        display: none;
-    }
-
-	.slink {
-		display: flex;
-		position: fixed;
-		width: 100%;
-		height: 100%;
-		background: rgb(65,105,225);
-	}
-	
-	.slink__body {
-		position: absolute;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%, -50%);
-		z-index: 99999;
-	}
-}
-
-
-@media only screen and (min-width: 488px) and (max-width: 489px){
-    #main-wrapper, #toploader{
-        display: none;
-    }
-
-	.slink {
-		display: flex;
-		position: fixed;
-		width: 100%;
-		height: 100%;
-		background: rgb(65,105,225);
-	}
-	
-	.slink__body {
-		position: absolute;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%, -50%);
-		z-index: 99999;
 	}
 }
 
