@@ -6,7 +6,7 @@
 
 // starroad website iframe
 $(document).ready(function(){
-	$(".iframe").colorbox({iframe:true, width:"480", height:"480"});
+	$(".iframe").colorbox({iframe:true, href:"/starroad.html", width:"480", height:"480"});
 
 });
 
