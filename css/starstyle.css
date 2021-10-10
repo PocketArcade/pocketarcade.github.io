@@ -2,6 +2,11 @@ body{
     margin: 0;
 }
 
+.star {
+  width: 480px;
+  height: 480px; 
+}
+
 .slink {
     display: flex;
     position: fixed;
