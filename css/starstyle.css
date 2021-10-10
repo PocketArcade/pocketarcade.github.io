@@ -8,6 +8,7 @@ body{
     height: 100%;
     width: 100%;
     background-color: rgb(65,105,225);
+    background-size: cover;
 }
 
 .slink__body {
