@@ -7,6 +7,10 @@ $(document).ready(function() {
 	preloader.fadeOut(preloaderFadeOutTime);
 	}
 	hidePreloader();
+	
+	// starroad website iframe
+	$(".iframe").colorbox({iframe:true, href:"/starroad.html", width:"480", height:"480"});
+
 	});
 
 
