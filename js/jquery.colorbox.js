@@ -4,13 +4,6 @@
 	http://www.jacklmoore.com/colorbox
 */
 
-// starroad website iframe
-$(document).ready(function(){
-	$(".iframe").colorbox({iframe:true, href:"/starroad.html", width:"480", height:"480"});
-
-});
-
-
 (function ($, document, window) {
 	var
 	// Default settings object.
