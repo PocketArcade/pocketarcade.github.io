@@ -2,10 +2,6 @@ body{
     margin: 0;
 }
 
-.star {
-  width: 470;
-  height: 470; 
-}
 
 .slink {
     display: flex;
